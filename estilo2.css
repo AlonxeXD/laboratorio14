@@ -1,0 +1,70 @@
+@media(min-width:1201px){
+        
+    body{
+        background-color: rgb(0, 255, 162);
+    }
+
+    #parrafo1{
+        width: 33%;
+        float: left;
+    }
+    #parrafo2{
+        width: 33%;
+        float: left;
+    }
+    #parrafo3{
+        width: 33%;
+        float: left;
+    }
+
+}
+
+@media(min-width:601px) and (max-width:1200px){
+
+    body{
+        background-color: rgb(152, 163, 31);
+    }
+
+    #parrafo1{
+        width: 30%;
+        float: left;            
+    }
+    #parrafo2{
+        width: 70%;
+        float: left;    
+    }
+    #parrafo3{
+        width: 70%;
+        float: left;
+        padding-left: 30%;
+    }
+    .contenedor-columnas{
+        width: 100%;
+        margin: auto;
+    }
+    
+    .columnasx3{
+        width: 33.33%;
+        float: left;
+    }
+}
+
+@media(max-width:600px){
+
+    body{
+        background-color: rgb(49, 67, 226);
+    }
+
+    #parrafo1{
+        width: 100%;
+    }
+    #parrafo2{
+        width: 100%;
+    }
+    #parrafo3{
+        width: 100%;
+    }
+}
+h1{
+    text-align: center;
+}
